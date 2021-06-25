@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+wikitext-2-raw/
+runs/
+lm_finetuning_bert_output/
+lm_finetuning_roberta_output/
+.idea/
