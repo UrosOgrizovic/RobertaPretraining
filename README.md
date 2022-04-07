@@ -45,7 +45,7 @@ hence the save limit of 3.
 
 Run `run_roberta.py`. In the `get_all_predictions()` function, you can swap out
 the model you fine-tuned with the default RoBERTa model by commenting out the
-first two lines of that function body. More specifically, do this:
+first two lines of that function's body:
 
 ```
 def get_all_predictions(text):
