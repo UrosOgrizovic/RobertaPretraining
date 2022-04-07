@@ -1,6 +1,6 @@
 ## Downloading a text dataset to perform fine-tuning on
 
-Download the raw characterlevel data of the `WikiText-2` dataset from 
+Download the raw character-level data of the `WikiText-2` dataset from 
 [this](https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/)
 link.
 
@@ -22,7 +22,7 @@ Run `lm_finetuning.py` with the following command:
 A directory with the name `lm_finetuning_roberta_output` will be generated.
 
 If you want to fine-tune a different model, for example BERT, change 
-`model_type`, `model_name_or_path` and `output_dir` if you want to, giving 
+`model_type`, `model_name_or_path` and `output_dir`, giving 
 you a command like so:
 
 ```
